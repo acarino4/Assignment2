@@ -1,0 +1,84 @@
+<!-- 
+  Name: Angelo Caster M. Carino
+  Student ID: 301223955
+  Assignment 1: Express Portfolio Site
+-->
+
+<!-- CONTACT.EJS body content section -->
+<head>
+  <style>
+      body {
+          background-color:lightgray;
+      }
+      .div1 {
+          border: 1px solid black;
+          padding: 16px;
+          background-color: grey;
+      }
+ 
+ </style>
+
+</head>
+<div class="container" class ="overflow-auto" style="padding-top: 20px;">
+  <h2><strong>Contact Me</strong></h2>
+  
+  <!-- Details about my contact information -->
+  <table class="table-primary">
+      <tr>
+          <td>Contact number: </td>
+          <td>(+1) 647-879-2263</td>
+      </tr>
+      <tr>
+          <td>Facebook</td>
+          <td><a href="https://www.facebook.com/profile.php?id=100083628754171">Angelo Caster M. Carino</a></td>
+      </tr>
+      <tr>
+          <td>Email</td>
+          <td><a href="https://mail.google.com/mail/u/0/#inbox">angelocaster1017@gmail.com</a></td>
+      </tr>
+  </table>
+
+  <br><br>
+  <h5><strong> If you need help, please leave a message: </strong></h5>
+
+  <!-- An interactive form that allows the user to send me a message with their basic contact information-->
+  <form>
+      <div class="mb-3 row">
+          <label for="lblFirstName" class="col-sm-2 col-form-label">First Name</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control-plaintext" id="lblFirstName" placeholder="Angelo">
+          </div>
+      </div>
+
+      <div class="mb-3 row">
+          <label for="lblLastName" class="col-sm-2 col-form-label">Last Name</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control-plaintext" id="lblLastName" placeholder="Carino">
+          </div>
+      </div>
+
+      <div class="mb-3 row">
+          <label for="lblContact" class="col-sm-2 col-form-label">Contact Number</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control-plaintext" id="lblContact" placeholder="(+1) 647-879-2263">
+          </div>
+      </div>
+
+      <div class="mb-3 row">
+          <label for="lblEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control-plaintext" id="lblEmail" placeholder="email@example.com">
+          </div>
+      </div>
+
+      <div class="mb-3 row">
+          <label for="formControlTextarea" class="col-sm-2 col-form-label">Message:</label>
+          <div class="col-sm-10">
+              <textarea class="form-control-plaintext" id="formControlTextarea" rows="2" placeholder="I want to say...."></textarea>
+          </div>
+      </div>
+
+      <!-- A button to submit their message and will redirect them to my home page -->
+      <a href="/" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Submit</a>
+  </form>
+</div>
